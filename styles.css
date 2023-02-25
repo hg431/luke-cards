@@ -1,0 +1,62 @@
+html * {
+    font-family: roboto, sans-serif;
+    margin:0;
+}
+
+.section-1 {
+    background-color: #1f2937;
+    color: white;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.section-1 a {
+    color: white;
+    font-size:small;
+    text-decoration: none;
+}
+
+.header-bar {
+    display:flex;
+    margin-bottom:40px;
+}
+.header-bar .logo {
+    flex:3;
+}
+.header-bar .one, .two, .three {
+    flex:1;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.container {
+    display:flex;
+}
+.title {
+    flex:1;
+    padding-right: 40px;
+}
+
+.title h1 {
+    margin-bottom:20px;
+}
+
+.title p {
+    margin-bottom:40px;
+}
+
+.image {
+    flex:1;
+    padding: 20px;
+    background-color:grey;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius:10px;
+}
+
